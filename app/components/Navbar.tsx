@@ -165,7 +165,7 @@ export default function Navbar() {
               className={`relative text-sm font-medium transition-colors ${
                 active === link.id
                   ? "text-green-600"
-                  : "text-gray-600 hover:text-green-600"
+                  : "text-gray-600  hover:text-green-600"
               }`}
             >
               {link.label}
@@ -179,7 +179,7 @@ export default function Navbar() {
 
         {/* Actions */}
         <div className="flex items-center gap-3">
-          <button  onClick={() => window.location.assign(redirectURL)} className="hidden rounded-xl border border-green-500 px-5 py-2 font-medium text-green-600 transition-all hover:bg-green-500 hover:text-white md:block">
+          <button  onClick={() => window.location.assign(redirectURL)} className="hidden rounded-xl border bg-green-500 px-5 py-2 font-medium text-white transition-all hover:bg-blue-900 hover:text-white md:block">
             Login
           </button>
 

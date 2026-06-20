@@ -20,7 +20,7 @@ export default function HeroSection() {
             src={mockup}
             alt="Mudra Master App"
             priority
-            className="relative z-10 w-full lg:max-w-[280px] max-w-md sm:max-w-md lg:max-w-xl xl:max-w-2xl"
+            className="relative z-10 w-full lg:max-w-[280px] max-w-md sm:max-w-md lg:max-w-md xl:max-w-xl"
           />
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function HeroSection() {
       
         <SectionName name ="  Trusted Digital Payments" icon={CircleStar} />
 
-        <h1 className="mt-6 text-4xl font-bold text-gray-900 sm:text-4xl lg:text-4xl xl:text-6xl">
+        <h1 className="mt-6 text-4xl leading-18 font-bold text-gray-900 sm:text-4xl lg:text-4xl xl:text-6xl">
           Powering Every
           <span className="block text-green-600">
             Transaction

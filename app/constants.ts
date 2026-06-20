@@ -71,7 +71,7 @@ export const CardData : CardDataType[] = [
 export const CardDataContact:CardDataType[] = [
   {
     title: "Email",
-    content: "solitech@gmail.com",
+    content: "mastermudracoustomersupport@gmail.com",
     icon: MailCheck,
   },
   {
