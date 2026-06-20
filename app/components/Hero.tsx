@@ -7,7 +7,7 @@ import Hero from "@/app/components/Hero"
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="relative   overflow-hidden bg-gradient-to-br from-green-50 via-white to-green-100">
+    <section id="home" className="relative   overflow-hidden bg-gradient-to-br from-green-50 via-white to-green-100">
   <div className="mx-auto max-w-8xl ">
     <div className="grid items-center gap-12  lg:min-h-screen lg:grid-cols-2">
       
