@@ -1,5 +1,5 @@
 import Image from "next/image";
-import payment from "@/public/assets/b.svg";
+import payment from "@/public/assets/p.svg";
 import flower from "@/public/assets/Vector.svg";
 import rec from "@/public/assets/Rectangle 18.svg"
 
@@ -22,7 +22,7 @@ export default function About() {
     src={payment}
     alt="About Mudra Master"
     priority
-    className="relative z-10 w-full max-w-xl object-contain"
+    className="relative z-10 w-full rounded-xl max-w-xl object-contain"
   />
 </div>
 

@@ -182,7 +182,7 @@ export default function Navbar() {
         {/* Actions */}
         <div className="flex items-center gap-1 items-center">
          
-          <button  onClick={() => window.location.assign(redirectURL)} className="hidden lg:flex lg:gap-2 rounded-xl border bg-green-500 px-5 py-2 font-medium text-white transition-all hover:bg-blue-900 hover:text-white md:block">
+          <button  onClick={() => window.location.assign(redirectURL)} className="hidden lg:flex lg:gap-2 rounded-xl border bg-green-500 px-5 py-2 font-medium text-white transition-all hover:bg-green-600 hover:text-white md:block">
             <LogIn className="text-white font-semibold" /> <p>Login</p>
           </button>
 
@@ -225,7 +225,7 @@ export default function Navbar() {
               </button>
             ))}
 
-            <button className="mt-2 rounded-xl bg-green-500 py-3 font-medium text-white">
+            <button className="mt-2 rounded-xl bg-green-400 py-3 font-medium text-white">
               Login
             </button>
           </div>

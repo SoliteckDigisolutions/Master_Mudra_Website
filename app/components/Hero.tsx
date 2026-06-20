@@ -49,7 +49,7 @@ export default function HeroSection() {
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
           <Link
             href="#features"
-            className="rounded-xl border border-green-300 px-6 py-3 font-semibold text-green-600 transition-all duration-300 hover:bg-green-500 hover:text-white"
+            className="rounded-xl border border-green-300 px-6 py-3 font-semibold text-green-600 bg-green-400 text-white transition-all duration-300 hover:bg-green-500 hover:text-white"
           >
             Get Started
           </Link>
