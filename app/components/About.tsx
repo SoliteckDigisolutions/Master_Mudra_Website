@@ -1,5 +1,5 @@
 import Image from "next/image";
-import payment from "@/public/assets/Gemini_Generated_Image_6u5dzz6u5dzz6u5d.png";
+import payment from "@/public/assets/b.svg";
 import flower from "@/public/assets/Vector.svg";
 import rec from "@/public/assets/Rectangle 18.svg"
 
@@ -15,14 +15,16 @@ export default function About() {
       className="min-h-screen bg-white px-4 sm:px-8 lg:px-16 py-12 flex flex-col lg:flex-row items-center gap-10"
     >
       {/* Image Section */}
-      <div className="w-full lg:w-1/2">
-        <Image
-          src={payment}
-          alt="About Mudra Master"
-          className="w-xl rounded-4xl object-cover"
-          priority
-        />
-      </div>
+     <div className="relative w-full lg:w-1/2 flex justify-center">
+  <div className="absolute inset-0 bg-white rounded-full"></div>
+
+  <Image
+    src={payment}
+    alt="About Mudra Master"
+    priority
+    className="relative z-10 w-full max-w-xl object-contain"
+  />
+</div>
 
      {/* Content Section */}
 <div className="w-full lg:w-1/2">

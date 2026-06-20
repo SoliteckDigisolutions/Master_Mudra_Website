@@ -43,7 +43,7 @@ export default function Footer() {
 
         {/* Bottom Section */}
         <div className="text-center text-sm opacity-90">
-          © 2026 Master Mudra Private Limited. All rights reserved.
+          © 2026 MASTER MUDRA PAYMENTS SOLUTION. All rights reserved.
         </div>
 
       </div>

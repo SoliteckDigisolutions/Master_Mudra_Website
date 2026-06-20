@@ -118,7 +118,7 @@ export default function page() {
           </p>
 
           <div className="mt-3 text-gray-700">
-            <p>mastermudracoustomersupport@gmail.com
+            <p>mastermudrapaymentsolution@gmail.com
 </p>
            
           </div>

@@ -107,7 +107,7 @@ export default function TermsConditions() {
           </p>
 
           <div className="text-gray-700 space-y-1">
-            <p>mastermudracoustomersupport@gmail.com
+            <p>mastermudrapaymentsolution@gmail.com
 </p>
            
           </div>
