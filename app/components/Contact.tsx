@@ -5,7 +5,7 @@ import SectionName from "./common-comp/SectionName";
 export default function Card() {
   return (
     <section id="contact" className="bg-white px-4 pt-8 lg:px-14">
-      <SectionName name="Platform Features" icon={CircleStar} />
+      <SectionName name="Contact Us" icon={CircleStar} />
 
       <p className="mt-4 max-w-2xl text-lg leading-relaxed text-slate-600">
         Powerful capabilities built to help merchants grow, manage payments,
@@ -25,7 +25,7 @@ export default function Card() {
               >
                 {/* Icon */}
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 transition-all duration-300 group-hover:bg-blue-100">
-                  <Icon className="h-6 w-6 text-blue-600" />
+                  <Icon className="h-6 w-6 text-green-600" />
                 </div>
 
                 {/* Content */}

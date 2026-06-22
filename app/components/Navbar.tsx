@@ -3,13 +3,15 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { LogIn, Menu, X } from "lucide-react";
 import axios, { AxiosResponse } from "axios";
 
 const navLinks = [
+   { id: "home", label: "Home", href: "/#home", type: "anchor" },
   { id: "about", label: "About", href: "/#about", type: "anchor" },
+   { id: "features", label: "Features", href: "/#features", type: "anchor" },
   { id: "services", label: "Services", href: "/#services", type: "anchor" },
-  { id: "features", label: "Features", href: "/#features", type: "anchor" },
+ 
   { id: "contact", label: "Contact", href: "/#contact", type: "anchor" },
   { id: "terms", label: "Terms & Conditions", href: "/term", type: "route" },
   { id: "privacy", label: "Privacy Policy", href: "/policy", type: "route" },
@@ -142,7 +144,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-8xl items-center justify-between px-4 py-2 lg:px-8">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="#hero" className="block">
+          <a href="#home" className="block">
             <Image
               src="/assets/h-logo.svg"
               alt="Mudra Master"
@@ -165,7 +167,7 @@ export default function Navbar() {
               className={`relative text-sm font-medium transition-colors ${
                 active === link.id
                   ? "text-green-600"
-                  : "text-gray-600 hover:text-green-600"
+                  : "text-gray-600  hover:text-green-600"
               }`}
             >
               {link.label}
@@ -178,9 +180,10 @@ export default function Navbar() {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center gap-3">
-          <button  onClick={() => window.location.assign(redirectURL)} className="hidden rounded-xl border border-green-500 px-5 py-2 font-medium text-green-600 transition-all hover:bg-green-500 hover:text-white md:block">
-            Login
+        <div className="flex items-center gap-1 items-center">
+         
+          <button  onClick={() => window.location.assign(redirectURL)} className="hidden lg:flex lg:gap-2 rounded-xl border bg-green-500 px-5 py-2 font-medium text-white transition-all hover:bg-green-600 hover:text-white md:block">
+            <LogIn className="text-white font-semibold" /> <p>Login</p>
           </button>
 
           {/* Mobile Toggle */}
@@ -222,7 +225,7 @@ export default function Navbar() {
               </button>
             ))}
 
-            <button className="mt-2 rounded-xl bg-green-500 py-3 font-medium text-white">
+            <button className="mt-2 rounded-xl bg-green-400 py-3 font-medium text-white">
               Login
             </button>
           </div>

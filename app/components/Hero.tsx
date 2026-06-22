@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import mockup from "@/public/assets/Group 1171282891 (1).svg";
+import mockup from "@/public/assets/MM-3 1.svg";
 import { CircleStar } from "lucide-react";
 import SectionName from "./common-comp/SectionName";
 import Hero from "@/app/components/Hero"
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="relative   overflow-hidden bg-gradient-to-br from-green-50 via-white to-green-100">
+    <section id="home" className="relative   overflow-hidden bg-gradient-to-br from-green-50 via-white to-green-100">
   <div className="mx-auto max-w-8xl ">
-    <div className="grid items-center gap-12  lg:min-h-screen lg:grid-cols-2">
+    <div className="grid items-center gap-12 lg:mt-20  lg:h-fit lg:grid-cols-2">
       
       {/* Image */}
       <div className="order-2 lg:order-1 flex justify-start">
@@ -20,7 +20,7 @@ export default function HeroSection() {
             src={mockup}
             alt="Mudra Master App"
             priority
-            className="relative z-10 w-full lg:max-w-[280px] max-w-md sm:max-w-md lg:max-w-xl xl:max-w-2xl"
+            className="relative z-10 w-full lg:max-w-[280px] max-w-md sm:max-w-md lg:max-w-md xl:max-w-xl"
           />
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function HeroSection() {
       
         <SectionName name ="  Trusted Digital Payments" icon={CircleStar} />
 
-        <h1 className="mt-6 text-4xl font-bold text-gray-900 sm:text-4xl lg:text-4xl xl:text-6xl">
+        <h1 className="mt-6 text-4xl leading-18 font-bold text-gray-900 sm:text-4xl lg:text-4xl xl:text-6xl">
           Powering Every
           <span className="block text-green-600">
             Transaction
@@ -49,7 +49,7 @@ export default function HeroSection() {
         <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
           <Link
             href="#features"
-            className="rounded-xl border border-green-300 px-6 py-3 font-semibold text-green-600 transition-all duration-300 hover:bg-green-500 hover:text-white"
+            className="rounded-xl border border-green-300 px-6 py-3 font-semibold text-green-600 bg-green-400 text-white transition-all duration-300 hover:bg-green-500 hover:text-white"
           >
             Get Started
           </Link>

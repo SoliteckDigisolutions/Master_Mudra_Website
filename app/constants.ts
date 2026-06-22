@@ -71,18 +71,22 @@ export const CardData : CardDataType[] = [
 export const CardDataContact:CardDataType[] = [
   {
     title: "Email",
-    content: "solitech@gmail.com",
+    content: "mastermudrapaymentsolution@gmail.com",
     icon: MailCheck,
   },
   {
     title: "Address",
     content:
-      "Near Ghansoli Station beside the wada paw stall under the over bridgh , top of the tilion flight light indicator",
+      `CS NO 4009/B/138, PLOT NO 161, BEHIND KRISHNA COLOUR LAB
+PARAS CHAMBERS
+OPP. M. P. SHAH SCIENCE COLLEGE
+Surendranagar
+State: Gujarat 363002`,
     icon: MapPin,
   },
   {
     title: "Mobile No",
-    content: "99834757489",
+    content: "9998811611",
     icon: PhoneForwarded,
   },
 ];
