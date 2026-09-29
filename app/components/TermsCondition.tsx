@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logos  from "@/public/assets/h-logo.svg";
+import logos  from "@/public/assets/rowLogo.png";
 export default function TermsConditions() {
   return (
     <section id="terms" className="min-h-screen bg-gray-50 px-13 py-12 ">

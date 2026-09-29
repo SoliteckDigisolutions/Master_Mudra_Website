@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logos  from "@/public/assets/h-logo.svg";
+import logos  from "@/public/assets/rowLogo.png";
 
 export default function page() {
   return (
