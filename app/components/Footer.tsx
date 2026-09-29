@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Mail, Phone, MapPin } from "lucide-react";
-import logo from "@/public/assets/Group 1171282893.svg";
+import logo from "@/public/assets/column.png";
 import ISO from "@/public/assets/ISO 9001 Certified.png";
 
 export default function Footer() {

@@ -144,7 +144,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <a href="#hero" className="block">
             <Image
-              src="/assets/h-logo.svg"
+              src="/assets/rowLogo.png"
               alt="Mudra Master"
               width={180}
               height={40}
